@@ -24,4 +24,3 @@ Nα εξετάσετε αν είναι προτιμότερη η χρήση εν
 μεταφορά πληροφορίας, χρησιμοποιώντας συγχρόνως και τα δύο κανάλια.
 ```
 
-[embed]http://example.com/file.pdf](https://github.com/PolydorosG/Error-Correction-Codes/blob/main/Error_Correction_Codes.pdf)[/embed]
