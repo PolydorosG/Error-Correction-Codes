@@ -1,9 +1,7 @@
 function H = regular_tanner_graph(n, w_c, w_r)
-    
- 
+
     k = n*w_c/w_r; % Number of rows
     H_sub = zeros(n/w_r,n); % First sub-matrix; there are w_c such sub-matrices.
-    
 
     for i = 1:n/w_r
         for j = (i-1)*w_r+1:i*w_r

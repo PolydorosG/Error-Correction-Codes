@@ -28,7 +28,7 @@ function encoded = ldpc_encoder(H, r, max_iter)
            
         end
         if(counter == n)
-            "Converged in " + iter + " iterations"
+            "Converged in " + iter + " iterations";
             break;
         else
             counter = 0;

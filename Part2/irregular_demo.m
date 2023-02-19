@@ -1,5 +1,5 @@
-%Demo desgining encoding and decoding for irregular LDPC code
-
+% Demo designing, encoding and decoding for irregular LDPC code
+% make sure to uncomment line 6 of ldpc_decoder
 clc
 clear 
 
@@ -18,15 +18,11 @@ max_iter = 1000;
 
 %% generate parity check matrix
 H = tanner_graph2(L,P);
-
-
 [m,n] = size(H);
 
 %% encode
 word = (rand(1,n-m)>0.5)*1;
-
 encoded = ldpc_encoder(H, word, 1000000);
-
 
 
 %% decode

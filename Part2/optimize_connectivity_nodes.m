@@ -2,10 +2,9 @@ function [p_v, p_c] = optimize_connectivity_nodes(e, max_degree_v, max_degree_c,
     % e is the erasure rate of the channel
     % max_degree_v is the maximum degree of a variable node
     % max_degree_c is the maximum degree of a check node
-    % max_iter is the maximum number of iterations for the optimization algorithm
     % discr_step is the discretization step
-    % p_v is the optimized connection probability of the variable nodes
-    % p_c is the optimized connection probability of the check nodes
+    % max_iter is the maximum number of iterations for the optimization algorithm
+
     
     options = optimoptions('linprog','Display','none');
 

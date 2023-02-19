@@ -1,5 +1,4 @@
-function [L, P] = ldpc_set_n(n, p_variable, p_check)
-    
+function [L, P] = ldpc_set_n(n, p_variable, p_check) 
 
     max_degree_v = length(p_variable)+1;
     max_degree_c = length(p_check)+1;
@@ -72,12 +71,12 @@ function [L, P] = ldpc_set_n(n, p_variable, p_check)
    id = -obj_max-A > obj_min-A;
 
    if isempty(obj_max)
-       "error max"
+       "error max";
        id = 1;
    end
    
    if isempty(obj_min)
-       "error min"
+       "error min";
        id = 0; 
    end 
    

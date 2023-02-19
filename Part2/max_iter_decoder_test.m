@@ -1,4 +1,4 @@
-%% HYPERPARAMETERS
+%% Hyperparameters
 
 error_step = 0.05;
 ber_iter = 10;
